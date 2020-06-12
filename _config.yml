@@ -1,0 +1,25 @@
+title:             a narrative adventure
+email:             dev@orsondewitt.com
+description:       is a branching narrative adventure and strategy game with factual history at its core. For PC and Mac.
+author:            Orcinus Games
+#url:               "localhost:4000"
+url:               "https://egypt.orcinusgames.com"
+baseurl:
+
+# Social Profiles
+#twitter_username:  SBootstrap
+#github_username:   BlackrockDigital
+subreddit: OrcinusGames
+discord_invite: https://discord.gg/amMNE4x
+steam_creator_page: https://store.steampowered.com/developer/orcinusgames/
+youtube: https://www.youtube.com/channel/UCdod8Lkks-QqSjm0epIHv-A
+email: dev@orsondewitt.com
+
+# Build settings
+markdown:          kramdown
+paginate:          10
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
